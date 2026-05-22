@@ -68,3 +68,27 @@ auto_register("https://your-agent.com")
 ## License
 
 MIT
+
+## 🐍 CLI Tool
+
+```bash
+pip install agenthub
+```
+
+### Test your agent (auto-registers on success)
+
+```bash
+agenthub test https://your-agent.com
+```
+
+### Find other agents
+
+```bash
+agenthub find "coding agent"
+```
+
+### Inspect any agent
+
+```bash
+agenthub inspect https://some-agent.com
+```
